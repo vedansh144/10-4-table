@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Assignment-2</title>
+	<style>
+		.container{
+			display: flex;
+			background-color:#007bbf;
+			display: flex;
+			flex-direction: row;
+			justify-content: space-around;
+			flex-flow: wrap;
+		}
+		tr{
+			width: auto;
+			height: auto;
+		}
+		td,tr{
+			width:150px;
+			height: 150px;
+			margin: 10px;
+			box-sizing: border-box;
+			font-size: 50px;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+<div class="container">
+
+	<table>
+		<tr style="background: #ffffff;font-size: 30px;">
+			<th colspan="4">10*4 Table using CSS flex nd HTML table</th>
+		</tr>
+		<tr style="background:#ffa366;">
+			<td>1</td>
+			<td>2</td>
+			<td>3</td>
+			<td>4</td>
+		</tr>
+		<tr style="background:#ff8533;">
+			<td>1</td>
+			<td>2</td>
+			<td>3</td>
+			<td>4</td>
+		</tr>
+		<tr style="background:#ff6600;">
+			<td>1</td>
+			<td>2</td>
+			<td>3</td>
+			<td>4</td>
+		</tr>
+		<tr style="background:#ffe066;">
+			<td>1</td>
+			<td>2</td>
+			<td>3</td>
+			<td>4</td>
+		</tr>
+		<tr style="background:#ffd633;">
+			<td>1</td>
+			<td>2</td>
+			<td>3</td>
+			<td>4</td>
+		</tr>
+		<tr style="background:yellow;">
+			<td>1</td>
+			<td>2</td>
+			<td>3</td>
+			<td>4</td>
+		</tr>
+		<tr style="background:#cca300;">
+			<td>1</td>
+			<td>2</td>
+			<td>3</td>
+			<td>4</td>
+		</tr>
+		<tr style="background:#ff704d;">
+			<td>1</td>
+			<td>2</td>
+			<td>3</td>
+			<td>4</td>
+		</tr>
+		<tr style="background:#ff471a;">
+			<td>1</td>
+			<td>2</td>
+			<td>3</td>
+			<td>4</td>
+		</tr>
+		<tr style="background:#ffebe6;">
+			<td>1</td>
+			<td>2</td>
+			<td>3</td>
+			<td>4</td>
+		</tr>
+</body>
+</html>
